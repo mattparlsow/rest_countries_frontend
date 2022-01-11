@@ -27,16 +27,18 @@
               <li>
                 <span>Currencies</span>:
                 <span
+                  class="sub-span"
                   v-for="currency in country.currencies"
                   :key="currency.name"
                   >{{ currency.name }},
                 </span>
               </li>
               <li><span>Poluation</span>: {{ country.population }}</li>
-              <li><span>ISO Code</span>: {{country.alpha3Code}}</li>
+              <li><span>ISO Code</span>: {{ country.alpha3Code }}</li>
               <li>
                 <span>Offical languages</span>:
                 <span
+                  class="sub-span"
                   v-for="language in country.languages"
                   :key="language.name"
                   >{{ language.name }},
@@ -133,6 +135,9 @@ export default Vue.extend({
       li {
         span {
           font-weight: 500;
+        }
+        .sub-span {
+          font-weight: 100 !important;
         }
       }
     }
