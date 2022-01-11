@@ -1,7 +1,9 @@
 # Rest Countries frontend
 Typescript Vue 2 app with Vuex state management. 
 BootstrapVue and SCSS responsive deisgn with theme toggle and aniamtions
-
+```
+Application can be viewed live here: https://frontendrestcountries.azurewebsites.net/
+```
 ## Project setup
 ```
 npm install
