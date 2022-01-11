@@ -1,4 +1,6 @@
-# countries-frontend
+# Rest Countries frontend
+Typescript Vue 2 app with Vuex state management. 
+BootstrapVue and SCSS responsive deisgn with theme toggle and aniamtions
 
 ## Project setup
 ```
@@ -9,21 +11,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
