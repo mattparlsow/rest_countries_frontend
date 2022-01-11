@@ -1,0 +1,23 @@
+
+/*Global styles*/
+$border-raduis: 5px;
+
+/*Themes*/
+:root {
+    --background-color: #f7f7f7;
+    --primary-color: #e2e2e2;
+    --secondary-color: #eaeaeb;
+    --accent-color: #78abde;
+    --text-color: #303030;
+    --shadow: #e6e6e6 0px 8px 24px;
+}
+
+[theme="dark"] {
+    --background-color: #1a1a22;
+    --primary-color: #232230;
+    --secondary-color: #282735;
+    --accent-color: #2d5b8b;
+    --text-color: #efefef;
+    --shadow: #13121b 0px 8px 24px;
+}
+
